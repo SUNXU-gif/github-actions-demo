@@ -8,7 +8,8 @@ export const handler = async (event) => {
         "Access-Control-Allow-Origin": "*",
       },
       body: JSON.stringify({
-        message: "Hello from Lambda!",
+        // message: "Hello from Lambda!",
+        message: "Hello from CI/CD Deployment!",
         timestamp: new Date().toISOString(),
         version: "1.0.0"
       })
